@@ -9,7 +9,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: /*#fbfaff*/ black;}
+    background-color: #fbfaff /*black; navy*/}
 
 
 
@@ -18,12 +18,22 @@ header {
     font-family: 'prompt';
     font-weight: 300;
     font-size: 1em;
-    color: #fff;}
+    color: #000;}
 
 body {
     font-family: 'nunito';
 }
 
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-family: 'prompt';
+    text-align: center;
+    font-size: 2em;
+}
 
 /* ### Page Layout */
 
@@ -37,18 +47,12 @@ header {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        }
+        justify-content: space-between;}
     
 header ul li {
     list-style-type: none;
     display: inline-block;
     margin: 1em;}
-
-header ul li a {
-    text-decoration: none;
-    color: #000;
-}
 
 .logo {
     width: 5em;
@@ -61,31 +65,61 @@ header ul li a {
 
 /* Menu animations */
 header ul li a:hover {
-    border-bottom: 1px solid blue;
-    transition-duration: 400ms;
+    border-bottom: 1px solid #9D4EDD;
+    transition-duration: 1s;
     transition-timing-function: ease-in-out;
 }
 
+
 /* Main */
 main {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;;
 }
 
-.center-img {
+/* Circle and center image */
+.top {
+    width:100vw;
+    height: 100vh;
+}
+.center-circle { 
     position: relative;
-    width: 20vw;
-    height: 20vh;
-    border-radius: 50;
-    background-color: #9667E0;
+    height: 60%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    clip-path: circle();
+    background-color: /*#8c07dd*/ /*#9c46c3*/ /*rgb(155, 69, 195)*/ #a713f6;
+    z-index: 1;
+    margin-top: 3em;
+    /* margin-left: 50%; */
+    /* margin: 0 auto; */
 }
-
-.center-img img {
-    position: absolute;
-    top: 50;
-    left: 50;
+/*
+.center-circle {
     width: 15vw;
     height: 15vh;
+    margin: 0 auto;
+}
+
+.center-img img{
+    width: 15vw;
+    height: 15vh;
+    /* z-index: 2; 
+}*/
+
+h1 {
+    padding: 1em;
+}
+
+/* Footer */
+
+footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: crimson;
 }
