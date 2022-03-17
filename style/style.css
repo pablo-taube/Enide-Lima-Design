@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap'); /* Nunito for text and Prompt for titles */
+
+/* Reset the default values, set the width, height, and background-color. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: /*#fbfaff*/ black;}
+
+
+
+/* Typography */
+header {
+    font-family: 'prompt';
+    font-weight: 300;
+    font-size: 1em;
+    color: #fff;}
+
+body {
+    font-family: 'nunito';
+}
+
+
+/* ### Page Layout */
+
+/* Header and menu*/
+header {
+        height: 10vh;
+        width: 100vw;
+        background-color: transparent;
+        /*background-color: #ADE8F4;*/
+        /*border-bottom: 1px solid #f8f9fa;*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        }
+    
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1em;}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    width: 5em;
+    height: 5em;}
+
+.social-networking img {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.5em;}
+
+/* Menu animations */
+header ul li a:hover {
+    border-bottom: 1px solid blue;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-img {
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 50;
+    background-color: #9667E0;
+}
+
+.center-img img {
+    position: absolute;
+    top: 50;
+    left: 50;
+    width: 15vw;
+    height: 15vh;
+}
