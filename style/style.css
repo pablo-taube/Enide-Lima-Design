@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap'); /* Nunito for text and Prompt for titles */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap');
 
 /* Reset the default values, set the width, height, and background-color. */
 * {
@@ -30,9 +30,11 @@ header ul li a {
 }
 
 h1 {
-    font-family: 'prompt';
+    font-family: 'Cormorant';
+    font-weight: 400;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
+    font-style: italic;
 }
 
 /* ### Page Layout */
