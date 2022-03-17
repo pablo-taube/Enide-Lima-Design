@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap');
-
-/* Reset the default values, set the width, height, and background-color. */
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Courgette&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Philosopher&family=Prompt:wght@200;300&family=Space+Mono&display=swap');/* Reset the default values, set the width, height, and background-color. */
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +9,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #fbfaff /*black; navy*/}
+    background-color: /*#fbfaff *//*black; navy*/ #f8edeb;}
 
 
 
@@ -35,6 +35,11 @@ h1 {
     text-align: center;
     font-size: 3em;
     font-style: italic;
+}
+
+.slogan {
+    font-family: 'Cormorant';
+    font-size: 1em;
 }
 
 /* ### Page Layout */
@@ -88,35 +93,31 @@ main {
     width:100vw;
     height: 100vh;
 }
+
 .center-circle { 
     position: relative;
-    height: 60%;
+    height: 75%;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     clip-path: circle();
-    background-color: /*#8c07dd*/ /*#9c46c3*/ /*rgb(155, 69, 195)*/ #a713f6;
+    background-color: #f9dcc4;
     z-index: 1;
     margin-top: 3em;
-    /* margin-left: 50%; */
-    /* margin: 0 auto; */
+    float: right;
+    right: 3em;
 }
-/*
-.center-circle {
-    width: 15vw;
-    height: 15vh;
-    margin: 0 auto;
-}
-
-.center-img img{
-    width: 15vw;
-    height: 15vh;
-    /* z-index: 2; 
-}*/
 
 h1 {
     padding: 1em;
 }
+
+.slogan {
+    width: 50%;
+    height:100%;
+    left: 50%;
+    padding-top: 10%;
+    text-align: center;}
 
 /* Footer */
 
