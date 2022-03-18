@@ -1,15 +1,43 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Courgette&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Prompt:wght@200;300&family=Space+Mono&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Philosopher&family=Prompt:wght@200;300&family=Space+Mono&display=swap');/* Reset the default values, set the width, height, and background-color. */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,500&family=Nunito:wght@200;400&family=Outfit:wght@300;400;600&family=Philosopher&family=Prompt:wght@200;300&family=Space+Mono&display=swap');
+
+/* Reset the default values, set the width, height, and background-color. */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;}
 
-body {
+/*body {
     width: 100vw;
     height: 100vh;
-    background-color: /*#fbfaff *//*black; navy*/ #f8edeb;}
+    background-color: /*#fbfaff *//*black; navy #f8edeb;
+}*/
+
+body {
+	width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+}
+    
+@keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+}
 
 
 
@@ -18,7 +46,8 @@ header {
     font-family: 'prompt';
     font-weight: 300;
     font-size: 1em;
-    color: #000;}
+    color: #fff;}
+
 
 body {
     font-family: 'nunito';
@@ -26,25 +55,41 @@ body {
 
 header ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 h1 {
-    font-family: 'Cormorant';
+    font-family: 'Raleway';
     font-weight: 400;
     text-align: center;
     font-size: 3em;
     font-style: italic;
 }
 
-.slogan {
-    font-family: 'Cormorant';
+.slogan, h3 {
+    font-family: 'Raleway';
     font-size: 1em;
+}
+
+.top-container {
+    color: #fff;
+}
+
+.right-text {
+    font-family: "nunito";
+    text-align: justify;
+}
+
+.name {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 600;
 }
 
 /* ### Page Layout */
 
-/* Header and menu*/
+
+/* ##Header and menu*/
 header {
         height: 10vh;
         width: 100vw;
@@ -66,9 +111,10 @@ header ul li {
     height: 5em;}
 
 .social-networking img {
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em;
+    height: 2em;
     margin: 0.5em;}
+
 
 /* Menu animations */
 header ul li a:hover {
@@ -78,7 +124,7 @@ header ul li a:hover {
 }
 
 
-/* Main */
+/* ##Main */
 main {
     width: 100vw;
     height: 100vh;
@@ -88,24 +134,25 @@ main {
     align-items: center;;
 }
 
-/* Circle and center image */
-.top {
+/* Top Container */
+.top-container {
     width:100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center ;
 }
 
-.center-circle { 
+.right-text {
     position: relative;
-    height: 75%;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    clip-path: circle();
-    background-color: #f9dcc4;
+    width: 50vh;
+    /* height: 75%; */
     z-index: 1;
     margin-top: 3em;
     float: right;
-    right: 3em;
+    /* right: 3em; */
 }
 
 h1 {
@@ -113,11 +160,11 @@ h1 {
 }
 
 .slogan {
-    width: 50%;
-    height:100%;
-    left: 50%;
+    width: 50vh;
+    /* height:100%; */
+    /* left: 50%; */
     padding-top: 10%;
-    text-align: center;}
+    text-align: left;}
 
 /* Footer */
 
