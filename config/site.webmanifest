@@ -1,0 +1,13 @@
+{
+    "name": "Enide Lima Design",
+    "short_name": "Enide Design",
+    "icons": [
+        {
+            "src": "../medias/Marca-Enide-1.png",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
