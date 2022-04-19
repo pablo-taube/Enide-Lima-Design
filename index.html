@@ -10,9 +10,9 @@
     <link rel="icon" type="image/png" href="./medias/Marca-Enide-1.png">
     <link rel="manifest" href="./config/site.webmanifest">
     <link rel="mask-icon" href="./medias/Marca-Enide-1.png" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#5d3ff">
+    <meta name="msapplication-TileColor" content="#5D31FF">
     <meta name="msapplication-TileImage" content="./medias/Marca-Enide-1.png">
-    <meta name="theme-color" content="#5d3ff">
+    <meta name="theme-color" content="#5D31FF">
 
     <!-- CSS-->
     <link rel="stylesheet" href="./style/bootstrap-grid.min.css">
@@ -124,7 +124,7 @@
             <div class="header__container container container--size-large">
 
                 <!-- Logo -->
-                <a class="header__logo logo">
+                <a class="header__logo logo" href="./index.html">
                     <img src="./medias/Marca-Enide-1.png" alt="Enide's logo" width="80" height="50">
                 </a>
 
@@ -146,7 +146,7 @@
 
                             <!-- About page -->
                             <li class="navigation__item">
-                                <a class="navigation__link animsition-link" href="about-us.html">Sobre<span class="navigation__link-icon">
+                                <a class="navigation__link animsition-link" href="./about-us.html">Sobre<span class="navigation__link-icon">
                             <svg width="12" height="13">
                               <use xlink:href="#link-arrow"></use>
                             </svg>
@@ -218,7 +218,7 @@
 
                                 <!-- Projects Page / Using: Masonry -->
                                 <li class="navigation__item">
-                                    <a class="navigation__link animsition-link" href="projects-masonry.html">Projetos<span class="navigation__link-icon">
+                                    <a class="navigation__link animsition-link" href="/projects-masonry.html">Projetos<span class="navigation__link-icon">
                                       <svg width="12" height="13">
                                         <use xlink:href="#link-arrow"></use>
                                       </svg>
@@ -669,16 +669,15 @@
                             </p>
                         </div>
 
-                        <div class="elementor-button-wrapper">
-                            <a href="https://api.whatsapp.com/send?phone=5571991023337" class="whatsapp-btn" role="button">
-                                <span class="elementor-button-content-wrapper">
-                                    <span class="elementor-button-icon elementor-align-icon-left">
-                                      <i aria-hidden="true" class="fab fa-whatsapp"></i>			
-                                    </span>
-
-                                <span class="elementor-button-text">Entre em contato comigo</span>
-                                </span>
+                        <div class="whatsapp-btn">
+                            <a href="https://api.whatsapp.com/send?phone=5571991023337" class="whatsapp-btn-link" role="button">
+                                <span> 
+                              <svg class="wpp-icon">
+                                <use xlink:href="#whatsapp-icon"></use>
+                              </svg> Entre em contato comigo 
+                            </span>
                             </a>
+
                         </div>
 
                     </div>
