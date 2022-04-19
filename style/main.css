@@ -166,7 +166,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    color: #000000;
+    color: #f3f1f1;
     white-space: normal;
     white-space: normal;
     -ms-flex-direction: column;
@@ -570,7 +570,7 @@ a:focus {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.2;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
@@ -584,7 +584,7 @@ a:focus {
     display: block;
     -webkit-transition: fill 0.3s ease;
     transition: fill 0.3s ease;
-    fill: #000000;
+    fill: #ffffff;
 }
 
 .btn--outline {
@@ -619,11 +619,11 @@ a:focus {
     }
     .btn--theme-black:hover .btn__text,
     .btn--theme-black:focus .btn__text {
-        color: #000000;
+        color: #ffffff;
     }
     .btn--theme-black:hover .btn__icon svg,
     .btn--theme-black:focus .btn__icon svg {
-        fill: #000000;
+        fill: #ffffff;
     }
 }
 
@@ -1102,10 +1102,10 @@ a:focus {
     font-family: "Neue Montreal", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1;
-    color: #000000;
+    color: #ffffff;
     background-color: transparent;
     border: none;
-    border-bottom: solid 1px #000000;
+    border-bottom: solid 1px #ffffff;
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1120,7 +1120,7 @@ a:focus {
 
 .field input:hover+.field__hint,
 .field textarea:hover+.field__hint {
-    color: #000000;
+    color: #ffffff;
 }
 
 .field input:focus,
@@ -1139,7 +1139,7 @@ a:focus {
     left: 0;
     font-size: 15px;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
     text-transform: uppercase;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
@@ -1147,7 +1147,7 @@ a:focus {
 
 .field--filled .field__hint {
     font-size: 12px;
-    color: #000000;
+    color: #ffffff;
     -webkit-transform: translateY(-24px);
     transform: translateY(-24px);
 }
@@ -1237,13 +1237,13 @@ a:focus {
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
     will-change: transform;
-    fill: #000000;
+    fill: #ffffff;
 }
 
 .file-upload__text {
     font-size: 15px;
     line-height: 2.06667;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -5698,7 +5698,7 @@ a:focus {
     }
     .about-video-section__aside img {
         width: 100%;
-        height: 100%;
+        height: 5;
         -o-object-fit: cover;
         object-fit: cover;
     }
@@ -5782,6 +5782,22 @@ a:focus {
     .about-video-section__video {
         margin-left: auto;
     }
+}
+
+.square {
+    width: 50vh;
+    height: 50vh;
+    transform: rotate(45deg) !important;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-img {
+    width: 58vh;
+    height: 58vh;
+    transform: rotate(-45deg);
 }
 
 
@@ -10558,7 +10574,7 @@ a:focus {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
-    color: #000000;
+    color: #ffffff;
 }
 
 .footer__menu-list {
@@ -10588,7 +10604,7 @@ a:focus {
     position: relative;
     font-size: 15px;
     line-height: 1.5;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -10599,7 +10615,7 @@ a:focus {
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: #000000;
+    background-color: #ffffff;
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
@@ -10654,7 +10670,7 @@ a:focus {
 @media (min-width: 992px) {
     .footer__phone a:hover,
     .footer__phone a:focus {
-        color: #000;
+        color: #fff;
     }
 }
 
@@ -10712,11 +10728,11 @@ a:focus {
 .footer__feedback-notice {
     font-size: 15px;
     line-height: 1.5;
-    color: #000000;
+    color: #fff;
 }
 
 .footer__feedback-notice a {
-    color: #000000;
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -10736,7 +10752,7 @@ a:focus {
     height: 257px;
     padding: 48px 48px 48px 36px;
     vertical-align: top;
-    background-color: #000000;
+    background-color: #fff;
     -ms-grid-column-align: start;
     justify-self: start;
 }
@@ -10816,18 +10832,18 @@ a:focus {
     content: "";
     width: 100%;
     margin-bottom: 36px;
-    border-top: solid 1px #000000;
+    border-top: solid 1px #ffffff;
 }
 
 .footer__copyright {
     margin-right: 12px;
     font-size: 15px;
     line-height: 1.5;
-    color: #000000;
+    color: #ffffff;
 }
 
 .footer__privacy {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -10840,6 +10856,48 @@ a:focus {
     .footer__privacy:focus {
         text-decoration: underline;
     }
+}
+
+.whatsapp-btn svg {
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+}
+
+.whatsapp-btn-link {
+    display: block;
+    width: 15em;
+    height: 3em;
+    background: #34AF23;
+    color: #fff;
+    border-radius: 100px;
+    border-width: 2px 2px 2px 2px;
+    text-decoration: none;
+    line-height: 3em;
+    text-align: center;
+    fill: #fff;
+}
+
+.whatsapp-btn-link:hover {
+    background: #fff;
+    border: 1px solid #34AF23;
+    fill: #34AF23;
+    color: #34AF23;
+}
+
+.whatsapp-btn-link-about {
+    display: block;
+    width: 15em;
+    height: 3em;
+    background: #5D31FF;
+    color: #fff;
+    border-radius: 100px;
+    border-width: 2px 2px 2px 2px;
+    text-decoration: none;
+    line-height: 3em;
+    text-align: center;
+    fill: #fff;
+    margin-bottom: 2em;
 }
 
 
