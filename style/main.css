@@ -7000,6 +7000,12 @@ a:focus {
     overflow: hidden;
 }
 
+@media (min-width: 1200px) {
+    .portfolio-section {
+        margin-top: 3.2em;
+    }
+}
+
 .portfolio-section--no-padding {
     padding-top: 0;
     padding-bottom: 0;
