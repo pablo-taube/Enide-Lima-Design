@@ -5380,6 +5380,8 @@ a:focus {
 
 .contact-section {
     padding: 80px 0;
+    margin-top: 3.2em;
+    margin-bottom: 3.2em;
 }
 
 @media (min-width: 768px) {
@@ -6998,13 +7000,15 @@ a:focus {
     padding-top: 100px;
     padding-bottom: 100px;
     overflow: hidden;
+    margin-top: 3.2em;
 }
 
-@media (min-width: 1200px) {
+
+/* @media (min-width: 1200px) {
     .portfolio-section {
         margin-top: 3.2em;
     }
-}
+} */
 
 .portfolio-section--no-padding {
     padding-top: 0;
