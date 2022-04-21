@@ -10516,6 +10516,39 @@ a:focus {
     background-color: #5d31ff;
 }
 
+.footer-containerr {
+    width: 100vw;
+    height: 30vh;
+    background: #5d31ff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer_text,
+.footer__menu {
+    width: 30%;
+    margin: 3px;
+}
+
+.footer_text h3 {
+    margin-block-start: 0em !important;
+}
+
+.footer__menu {
+    text-align: center;
+}
+
+.text {
+    text-align: justify;
+}
+
+h3:nth-child(1) {
+    text-align: center;
+}
+
 @media (min-width: 992px) {
     .footer {
         padding-top: 80px;
@@ -10533,10 +10566,11 @@ a:focus {
 
 @media (min-width: 480px) {
     .footer__grid {
-        -ms-grid-columns: 103px 35px 1fr 1fr;
+        -ms-grid-columns: 103px 35px 1fr/*1fr*/
+        ;
         grid-template-columns: /*103px 35px 1fr 1fr*/
         1fr 1fr 1fr;
-        grid-gap: 50px;
+        /*grid-gap: 50px;*/
     }
 }
 
@@ -10565,7 +10599,7 @@ a:focus {
         ;
         grid-template-columns: /*190px 7.03125vw 1fr 1fr 26.30208vw*/
         1fr 1fr 1fr;
-        grid-gap: 5.20833vw;
+        /*grid-gap: 5.20833vw;*/
     }
 }
 
@@ -10575,7 +10609,7 @@ a:focus {
         ;
         grid-template-columns: /*190px 135px 1fr 1fr 505px*/
         1fr 1fr 1fr;
-        grid-gap: 100px;
+        /*grid-gap: 100px;*/
     }
 }
 
@@ -10806,12 +10840,15 @@ a:focus {
     display: flex;
     justify-content: space-between;
     -ms-flex-pack: justify;
-    -ms-grid-column: 1;
+    /* -ms-grid-column: 1;
     -ms-grid-column-span: 2;
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 2;*/
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
 }
 
 @media (min-width: 480px) {
@@ -10842,7 +10879,6 @@ a:focus {
     content: "";
     width: 100%;
     margin-bottom: 36px;
-    border-top: solid 1px #ffffff;
 }
 
 .footer__copyright {
@@ -10850,6 +10886,7 @@ a:focus {
     font-size: 15px;
     line-height: 1.5;
     color: #ffffff;
+    margin-bottom: 1em;
 }
 
 .footer__privacy {
