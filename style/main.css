@@ -5176,13 +5176,13 @@ a:focus {
 /* 3.15 Services section in homepage */
 
 .our-services {
-    padding-bottom: 80px;
+    padding-bottom: 3em;
     background-color: #000000;
 }
 
 @media (min-width: 1200px) {
     .our-services {
-        padding-bottom: 215px;
+        padding-bottom: 3.5em;
     }
 }
 
@@ -5194,7 +5194,7 @@ a:focus {
 @media (min-width: 1200px) {
     .our-services__header {
         padding-top: 144px;
-        padding-bottom: 80px;
+        padding-bottom: 2em;
     }
 }
 
@@ -9846,6 +9846,17 @@ a:focus {
 .header--white .menu-toggle::after,
 .header--white .menu-toggle__line {
     border-top-color: #ffffff;
+}
+
+
+/* .header--black .menu-toggle::before,
+.header--black .menu-toggle::after,
+.header--black .menu-toggle__line {
+    border-top-color: #000000;
+} */
+
+.h-black {
+    background-color: #000;
 }
 
 .header--white .menu-toggle--opened::before,
