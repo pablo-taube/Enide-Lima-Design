@@ -291,6 +291,10 @@ a:focus {
     }
 }
 
+.margin__top {
+    margin-top: 10em !important;
+}
+
 
 /* 1.2  Typography */
 
@@ -5733,13 +5737,13 @@ a:focus {
 
 @media (min-width: 576px) {
     .about-video-section__title {
-        font-size: 32px;
+        font-size: 25px;
     }
 }
 
 @media (min-width: 992px) {
     .about-video-section__title--size-large {
-        font-size: 36px;
+        font-size: 29px;
     }
 }
 
@@ -9303,6 +9307,10 @@ a:focus {
 
 /* 4.20 About us page */
 
+.about-video-section__title p {
+    font-size: 17px;
+}
+
 .about-us {
     padding-bottom: 70px;
 }
@@ -10560,6 +10568,7 @@ a:focus {
 
 .footer_text h3 {
     margin-block-start: 0em !important;
+    font-size: 1.8em;
 }
 
 .footer__menu {
