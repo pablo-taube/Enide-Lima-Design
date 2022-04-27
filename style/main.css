@@ -6386,8 +6386,18 @@ a:focus {
     font-size: 40px;
     font-weight: 500;
     line-height: 1;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
+}
+
+.discuss-project__title-white {
+    max-width: 190px;
+    margin: -70px auto 60px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: #ffffff;
 }
 
 @media (min-width: 768px) {
