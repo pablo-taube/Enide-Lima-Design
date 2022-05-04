@@ -4665,6 +4665,12 @@ a:focus {
     }
 }
 
+@media (min-width: 992px) {
+    .main-screen {
+        width: 100vw;
+    }
+}
+
 @media (min-width: 1200px) {
     .main-screen {
         padding-top: 190px;
@@ -10733,7 +10739,7 @@ h3:nth-child(1) {
 
 @media (min-width: 992px) and (max-width:1400px) {
     .footer {
-        height: 45vh;
+        height: auto;
     }
     .footer-containerr {
         height: 45vh;
@@ -10897,7 +10903,7 @@ h3:nth-child(1) {
 
 @media (min-width: 601px) and (max-width:991px) {
     .footer {
-        height: 70vh;
+        height: auto;
     }
     .footer-containerr {
         height: 55vh;
