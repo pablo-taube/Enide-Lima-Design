@@ -10906,10 +10906,12 @@ h3:nth-child(1) {
 
 @media (min-width: 601px) and (max-width:991px) {
     .footer {
-        height: auto;
+        width: auto;
+        height: 81vh;
     }
     .footer-containerr {
         height: auto;
+        padding-top: 6.25em;
     }
     .whatsapp-btn {
         min-width: 200px;
@@ -10934,6 +10936,7 @@ h3:nth-child(1) {
     }
     .footer__copyright {
         width: 100vw;
+        margin-top: 2em;
         justify-content: center;
         text-align: center;
         height: auto;
