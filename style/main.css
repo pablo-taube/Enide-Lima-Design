@@ -10768,7 +10768,7 @@ h3:nth-child(1) {
 
 @media (min-width: 1401px) {
     .footer {
-        height: 45vh;
+        height: auto;
     }
     .footer-containerr {
         height: auto;
@@ -10857,7 +10857,7 @@ h3:nth-child(1) {
     .footer {
         width: 100vw;
         min-width: 200px;
-        height: 100vh;
+        height: auto;
     }
     .footer-containerr {
         width: 100vw;
@@ -10906,7 +10906,7 @@ h3:nth-child(1) {
 
 @media (min-width: 601px) and (max-width:991px) {
     .footer {
-        height: 100vh;
+        height: auto;
     }
     .footer-containerr {
         height: 55vh;
