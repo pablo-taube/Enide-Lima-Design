@@ -4719,10 +4719,10 @@ a:focus {
 }
 
 .main-screen__title {
-    max-width: 750px;
+    max-width: 1050px;
     /*290px*/
     margin: 1.5em 0 1.5em;
-    font-size: 3.25em;
+    font-size: 5em !important;
     font-weight: 800;
     line-height: 1;
     color: #ffffff;
@@ -4747,6 +4747,7 @@ a:focus {
 
 @media (min-width: 992px) {
     .main-screen__title {
+        max-width: 950px;
         font-size: 50px;
         margin-top: 170px;
         margin-bottom: 40px;
@@ -7910,7 +7911,7 @@ a:focus {
     margin-bottom: 0.3em !important;
     margin-top: 0em !important;
     font-size: 42px;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 0.95;
     color: #000000;
     opacity: 0.95;
@@ -10739,7 +10740,8 @@ a:focus {
 
 .footer_text h3 {
     margin-block-start: 0em !important;
-    font-size: 2em;
+    font-size: 3em;
+    text-align: left;
 }
 
 .footer__menu {
