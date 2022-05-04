@@ -5672,6 +5672,12 @@ a:focus {
 
 /* 3.18 About section with video in homepage */
 
+.about-img img {
+    width: 25em !important;
+    height: auto;
+    margin-top: 4.5em;
+}
+
 .about-video-section {
     padding: 80px 0;
 }
@@ -11391,7 +11397,7 @@ h3:nth-child(1) {
 
 .whatsapp-btn-link {
     display: block;
-    width: 15em;
+    width: 17em;
     height: 3em;
     background: #34AF23;
     color: #fff;
@@ -11412,7 +11418,7 @@ h3:nth-child(1) {
 
 .whatsapp-btn-link-about {
     display: block;
-    width: 15em;
+    width: 17em;
     height: 3em;
     background: #5D31FF;
     color: #fff;
@@ -11423,6 +11429,10 @@ h3:nth-child(1) {
     text-align: center;
     fill: #fff;
     margin-bottom: 2em;
+}
+
+.wp-btn {
+    margin-bottom: 4em;
 }
 
 
