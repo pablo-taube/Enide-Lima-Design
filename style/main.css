@@ -100,6 +100,7 @@
 @import url("animsition.min.css");
 @import url("jquery.pagepiling.css");
 @import url("jquery.fancybox.css");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap');
 
 /*** 1. GLOBAL ***/
 
@@ -119,6 +120,7 @@ html {
     -o-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    --font-family: 'Merriweather', serif;
 }
 
 @media (min-width: 992px) {
@@ -162,7 +164,7 @@ body {
     min-height: 100vh;
     padding: 0;
     margin: 0;
-    font-family: "Neue Montreal", "Arial", sans-serif;
+    font-family: var(--font-family);
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -298,6 +300,12 @@ a:focus {
 
 /* 1.2  Typography */
 
+.font__family {
+    font-family: var(--font-family) !important;
+}
+
+
+/*
 @font-face {
     src: url("../fonts/NeueMontreal-Regular.woff2") format("woff2"), url("../fonts/NeueMontreal-Regular.woff") format("woff");
     font-family: "Neue Montreal";
@@ -337,6 +345,8 @@ a:focus {
     font-style: normal;
     font-display: swap;
 }
+
+*/
 
 
 /* 1.3 Utils */
@@ -1103,7 +1113,7 @@ a:focus {
     -moz-appearance: none;
     appearance: none;
     padding: 0 0 14px;
-    font-family: "Neue Montreal", "Arial", sans-serif;
+    font-family: var(--font-family);
     font-size: 16px;
     line-height: 1;
     color: #ffffff;
@@ -1917,7 +1927,7 @@ a:focus {
     top: -21px;
     left: 18px;
     display: block;
-    font-family: "Neue Montreal", "Arial", sans-serif;
+    font-family: var(--font-family);
     font-size: 70px;
     font-weight: 600;
     line-height: 70px;
@@ -2279,7 +2289,7 @@ a:focus {
     appearance: none;
     padding: 0;
     margin-right: 20px;
-    font-family: "Neue Montreal", "Arial", sans-serif;
+    font-family: var(--font-family);
     font-size: 18px;
     line-height: 1.5;
     color: #000000;
@@ -4075,7 +4085,7 @@ a:focus {
 }
 
 .accordion--black .accordion__item-title {
-    font-family: "Neue Montreal", "Arial", sans-serif;
+    font-family: var(--font-family);
 }
 
 .accordion--black .accordion__item-title span {
@@ -7407,6 +7417,27 @@ a:focus {
     }
 }
 
+
+/* ABOUT-US PAGE OPTIONS */
+
+
+/* REGULAR ONE: */
+
+
+/* .first-banner__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* SMALLER BACKGROUND */
+
 .first-banner__image {
     position: absolute;
     top: 0;
@@ -7418,6 +7449,32 @@ a:focus {
     height: 100%;
 }
 
+@media (min-width: 768px) {
+    .first-banner-smaller {
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .first-banner-smaller {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .first-banner-smaller {
+        height: 830px;
+    }
+}
+
+.first-banner__image-smaller img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/**/
+
 .first-banner__image>* {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
@@ -7426,7 +7483,7 @@ a:focus {
 
 .first-banner__image img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -8805,7 +8862,7 @@ a:focus {
 
 .coming-soon__timer-title {
     margin-bottom: 30px;
-    font-family: "Gilroy", "Arial", sans-serif;
+    font-family: var(--font-family);
     font-size: 25px;
     font-weight: bold;
     line-height: 35px;
@@ -10624,7 +10681,7 @@ a:focus {
 }
 
 .footer {
-    padding: 40px 0;
+    /*padding: 40px 0;*/
     background-color: #5d31ff;
 }
 
@@ -10656,6 +10713,7 @@ a:focus {
 
 .text {
     text-align: justify;
+    font-family: var(--font-family);
 }
 
 h3:nth-child(1) {
@@ -10664,13 +10722,232 @@ h3:nth-child(1) {
 
 
 /*
-@media (min-width: 992px) {
-    .footer {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+.footer__bottom {
+    height: 100vh;
+    width: 100%;
+    /* margin-top: 1em; */
+
+
+/*
 }*/
 
+@media (min-width: 992px) and (max-width:1400px) {
+    .footer {
+        height: 45vh;
+    }
+    .footer-containerr {
+        height: 45vh;
+        margin-top: 2em;
+    }
+    .footer__bottom {
+        width: 100vw;
+        height: auto;
+        display: block;
+    }
+    .footer__copyright {
+        width: auto;
+        margin-top: 2em;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+    .footer__privacy {
+        width: auto;
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 1401px) {
+    .footer {
+        height: 45vh;
+    }
+    .footer-containerr {
+        height: 45vh;
+        margin-top: 2em;
+    }
+    .footer__bottom {
+        width: 100vw;
+        height: auto;
+        display: block;
+    }
+    .footer__copyright {
+        width: auto;
+        margin-top: 2em;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+    .footer__privacy {
+        width: auto;
+        margin-top: 2em;
+    }
+}
+
+
+/*
+.footer__grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}*/
+
+@media (max-width: 480px) {
+    .footer {
+        width: 100vw;
+        min-width: 200px;
+        height: auto;
+    }
+    .footer-containerr {
+        width: 100vw;
+        min-width: 200px;
+        height: auto;
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .footer__menu,
+    .footer_text {
+        width: 80vw;
+        min-width: 200px;
+        margin: 2em 2em 0 2em;
+    }
+    .whatsapp-btn {
+        min-width: 200px;
+        max-width: 80vw;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__menu-list {
+        width: 50px;
+    }
+    .footer__bottom {
+        width: 100vw;
+        height: 5vh;
+        background: #5d31ff;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .footer__copyright {
+        width: 100vw;
+        margin-top: 2em;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width:600px) {
+    .footer {
+        width: 100vw;
+        min-width: 200px;
+        height: 100vh;
+    }
+    .footer-containerr {
+        width: 100vw;
+        min-width: 200px;
+        height: 100vh;
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .footer__menu,
+    .footer_text {
+        width: 80vw;
+        min-width: 200px;
+        margin: 2em;
+    }
+    .whatsapp-btn {
+        min-width: 200px;
+        max-width: 80vw;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__menu-list {
+        width: 50px;
+    }
+    .footer__bottom {
+        width: 100vw;
+        height: auto;
+        background: #5d31ff;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .footer__copyright {
+        width: 100vw;
+        margin-top: 2em;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+}
+
+@media (min-width: 601px) and (max-width:991px) {
+    .footer {
+        height: 70vh;
+    }
+    .footer-containerr {
+        height: 55vh;
+    }
+    .whatsapp-btn {
+        min-width: 200px;
+        max-width: 80vw;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__menu-list {
+        width: 50px;
+    }
+}
+
+.footer__bottom {
+    width: 100vw;
+    height: auto;
+    background: #5d31ff;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer__copyright {
+    margin-right: 16px !important;
+}
+
+
+/*
+@media (min-width: 992px) and (max-width:1400px) {
+    .footer {
+        padding-top: 122px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 1401px) {
+    .footer {
+        padding-top: 110px;
+        padding-bottom: 280px;
+    }
+}
+*/
+
+
+/*
 .footer__grid {
     display: -ms-grid;
     display: grid;
@@ -10678,6 +10955,7 @@ h3:nth-child(1) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
 }
+*/
 
 
 /*
@@ -10785,6 +11063,8 @@ h3:nth-child(1) {
     list-style: none;
 }
 
+
+/*
 .footer__menu-item {
     margin-top: 10px;
 }
@@ -10792,6 +11072,7 @@ h3:nth-child(1) {
 .footer__menu-item:first-child {
     margin-top: 0;
 }
+*/
 
 .footer__menu-item--current .footer__menu-link {
     pointer-events: none;
@@ -10876,6 +11157,8 @@ h3:nth-child(1) {
     }
 }
 
+
+/*
 .footer__feedback {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -10949,6 +11232,10 @@ h3:nth-child(1) {
     }
 }
 
+*/
+
+
+/*
 .footer__logo {
     display: inline-block;
     height: 257px;
@@ -11001,6 +11288,9 @@ h3:nth-child(1) {
     /* -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1 / span 2;*/
+
+
+/*
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
@@ -11038,13 +11328,11 @@ h3:nth-child(1) {
     width: 100%;
     margin-bottom: 36px;
 }
+*/
 
 .footer__copyright {
-    margin-right: 12px;
     font-size: 15px;
-    line-height: 1.5;
     color: #ffffff;
-    margin-bottom: 1em;
 }
 
 .footer__privacy {
