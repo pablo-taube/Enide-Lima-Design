@@ -4746,7 +4746,7 @@ a:focus {
 @media (min-width: 992px) {
     .main-screen__title {
         font-size: 50px;
-        margin-top: 300px;
+        margin-top: 170px;
         margin-bottom: 40px;
     }
     .main-screen__btn {
@@ -5222,7 +5222,7 @@ a:focus {
 
 @media (min-width: 1200px) {
     .our-services__header {
-        padding-top: 144px;
+        padding-top: 100px;
         padding-bottom: 2em;
     }
 }
@@ -5267,7 +5267,7 @@ a:focus {
 }
 
 .our-services__title {
-    width: 100%;
+    width: 100vh;
     margin: 0 0 24px;
     font-size: 52px;
     font-weight: 500;
@@ -6118,7 +6118,7 @@ a:focus {
 
 @media (min-width: 1200px) {
     .carousel-section {
-        padding: 184px 0 80px;
+        padding: 100px 0 80px;
     }
 }
 
@@ -7915,7 +7915,7 @@ a:focus {
 @media (min-width: 768px) {
     .article__title {
         margin-bottom: 0.3em !important;
-        font-size: 100px;
+        font-size: 4em;
     }
 }
 
@@ -7929,8 +7929,12 @@ a:focus {
 
 @media (min-width: 768px) {
     .article__text {
-        font-size: 22px;
+        font-size: 1em;
     }
+}
+
+.pdg {
+    padding-bottom: 1em;
 }
 
 
@@ -10699,7 +10703,7 @@ a:focus {
 
 .footer-containerr {
     width: 100vw;
-    height: 30vh;
+    height: auto;
     background: #5d31ff;
     display: flex;
     flex-wrap: wrap;
@@ -10737,8 +10741,8 @@ h3:nth-child(1) {
         height: auto;
     }
     .footer-containerr {
-        height: 45vh;
-        margin-top: 2em;
+        height: auto;
+        padding-top: 6.25em;
     }
     .footer__bottom {
         width: 100vw;
@@ -10763,8 +10767,8 @@ h3:nth-child(1) {
         height: 45vh;
     }
     .footer-containerr {
-        height: 45vh;
-        margin-top: 2em;
+        height: auto;
+        padding-top: 6.25em;
     }
     .footer__bottom {
         width: 100vw;
