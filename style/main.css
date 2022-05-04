@@ -4668,7 +4668,7 @@ a:focus {
 @media (min-width: 992px) {
     .main-screen {
         width: 100vw;
-        padding-top: 190px;
+        padding-top: 10px;
     }
 }
 
@@ -4746,6 +4746,11 @@ a:focus {
 @media (min-width: 992px) {
     .main-screen__title {
         font-size: 72px;
+        margin-top: 150px;
+        margin-bottom: 90px;
+    }
+    .main-screen__btn {
+        margin-bottom: 100px;
     }
 }
 
