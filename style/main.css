@@ -10742,6 +10742,7 @@ a:focus {
     margin-block-start: 0em !important;
     font-size: 3em;
     text-align: left !important;
+    margin-bottom: 1em;
 }
 
 .footer__menu {
