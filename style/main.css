@@ -10907,7 +10907,7 @@ h3:nth-child(1) {
 @media (min-width: 601px) and (max-width:991px) {
     .footer {
         width: auto;
-        height: 71vh;
+        height: auto;
     }
     .footer-containerr {
         height: auto;
