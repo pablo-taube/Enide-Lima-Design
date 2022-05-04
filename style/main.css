@@ -4668,6 +4668,7 @@ a:focus {
 @media (min-width: 992px) {
     .main-screen {
         width: 100vw;
+        padding-top: 160px;
     }
 }
 
