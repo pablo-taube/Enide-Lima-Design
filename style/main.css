@@ -10692,8 +10692,12 @@ a:focus {
 }
 
 .ul-align-left {
-    width: 7em;
+    width: 5em;
     text-align: left;
+}
+
+.ul-align-left-quick {
+    width: 3.125em;
 }
 
 .footer {
