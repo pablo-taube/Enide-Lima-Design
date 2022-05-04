@@ -10862,7 +10862,7 @@ h3:nth-child(1) {
     .footer-containerr {
         width: 100vw;
         min-width: 200px;
-        height: 100vh;
+        height: auto;
         display: block;
         align-items: center;
         align-content: center;
@@ -10909,7 +10909,7 @@ h3:nth-child(1) {
         height: auto;
     }
     .footer-containerr {
-        height: 55vh;
+        height: auto;
     }
     .whatsapp-btn {
         min-width: 200px;
