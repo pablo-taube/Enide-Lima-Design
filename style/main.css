@@ -5249,6 +5249,9 @@ a:focus {
         max-width: 230px;
         font-size: 72px;
     }
+    header h2 {
+        width: 50vw;
+    }
 }
 
 @media (min-width: 992px) {
@@ -10862,6 +10865,10 @@ h3:nth-child(1) {
         justify-content: center;
         text-align: center;
         height: auto;
+    }
+    .footer__social {
+        margin-left: 7em;
+        margin-bottom: 2em;
     }
 }
 
