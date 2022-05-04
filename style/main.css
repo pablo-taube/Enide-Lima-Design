@@ -4745,9 +4745,9 @@ a:focus {
 
 @media (min-width: 992px) {
     .main-screen__title {
-        font-size: 72px;
-        margin-top: 150px;
-        margin-bottom: 90px;
+        font-size: 50px;
+        margin-top: 300px;
+        margin-bottom: 40px;
     }
     .main-screen__btn {
         margin-bottom: 100px;
