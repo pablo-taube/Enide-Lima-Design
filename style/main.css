@@ -4737,8 +4737,6 @@ a:focus {
     color: #5d31ff;
 }
 
-
-/*
 @media (min-width: 200px) {
     .main-screen__title {
         max-width: 450px;
@@ -4746,21 +4744,9 @@ a:focus {
         margin-bottom: 0.5em !important;
         font-size: 4.2em !important;
     }
-
-
 }
 
 @media (min-width: 576px) {
-    .main-screen__title {
-        max-width: 650px;
-        /*530px*/
-
-
-/* font-size: 52px;
-    }
-}*/
-
-@media (min-width: 200px) {
     .main-screen__title {
         max-width: 650px;
         /*530px*/
