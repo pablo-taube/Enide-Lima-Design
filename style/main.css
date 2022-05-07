@@ -295,9 +295,11 @@ a:focus {
     }
 }
 
+
+/*
 .margin__top {
     margin-top: 10em !important;
-}
+}*/
 
 
 /* 1.2  Typography */
@@ -7172,7 +7174,6 @@ a:focus {
 
 .gallery-view {
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -7946,7 +7947,7 @@ a:focus {
 
 @media (min-width: 992px) {
     .article {
-        padding: 212px 0 220px;
+        padding: 13vh 0 13vh;
     }
 }
 
@@ -9326,7 +9327,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     margin-right: 15vw;
-    /* margin: 2em; */
+    margin: 2em;
 }
 
 .gallery-image {
@@ -9357,14 +9358,14 @@ a:focus {
         text-decoration: none;
         top: 27vh;
         padding-left: 8px;
-        padding-top: 1vh;
+        padding-top: 1.2vh;
     }
     .gallery-caption-bg {
         display: inline-block;
         width: 10vw;
         min-width: 130px;
         max-width: 280px;
-        height: 6vh !important;
+        height: 7vh !important;
     }
 }
 
