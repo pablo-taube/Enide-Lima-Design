@@ -10754,6 +10754,7 @@ a:focus {
 .footer_text h3 {
     font-size: 3em;
     text-align: left !important;
+    margin-block-start: 0 !important;
 }
 
 .footer__menu {
