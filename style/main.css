@@ -9345,6 +9345,9 @@ s
         height: 35vh;
         position: absolute;
     }
+    .gallery-view {
+        padding-right: 5.5em;
+    }
     .gallery-caption {
         display: inline-block;
         width: 10vw;
@@ -9364,7 +9367,7 @@ s
         width: 10vw;
         min-width: 130px;
         max-width: 280px;
-        height: 7vh !important;
+        height: 7.2vh !important;
     }
 }
 
