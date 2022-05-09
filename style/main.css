@@ -5229,7 +5229,7 @@ s
 
 .our-services__header {
     padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 
 @media (min-width: 1200px) {
@@ -5293,7 +5293,7 @@ s
 @media (min-width: 768px) {
     .our-services__title {
         margin: 0;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 }
 
