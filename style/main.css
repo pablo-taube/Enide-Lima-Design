@@ -4719,7 +4719,7 @@ s
 }
 
 .main-screen__title {
-    max-width: 850px;
+    max-width: 750px;
     /*290px*/
     margin: 1.5em 0 1.5em;
     font-size: 5em !important;
@@ -4756,7 +4756,7 @@ s
 
 @media (min-width: 992px) {
     .main-screen__title {
-        max-width: 850px;
+        max-width: 750px;
         font-size: 50px;
         margin-top: 170px;
         margin-bottom: 40px;
