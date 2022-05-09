@@ -9378,8 +9378,7 @@ s
     }
 }
 
-.gallery-caption,
-.gallery-caption-bg {
+.gallery-caption {
     display: inline-block;
     width: 10vw;
     min-width: 130px;
@@ -9390,6 +9389,21 @@ s
     color: #fff;
     text-decoration: none;
     top: 27vh;
+    padding-left: 7px;
+    padding-top: 0.5vh;
+}
+
+.gallery-caption-bg {
+    display: inline-block;
+    width: 10vw;
+    min-width: 130px;
+    max-width: 280px;
+    height: 7.5vh !important;
+    position: relative;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    top: 26vh;
     padding-left: 7px;
     padding-top: 0.5vh;
 }
