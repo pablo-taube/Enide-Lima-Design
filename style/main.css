@@ -4756,7 +4756,7 @@ s
 
 @media (min-width: 992px) {
     .main-screen__title {
-        max-width: 750px;
+        max-width: 850px;
         font-size: 50px;
         margin-top: 170px;
         margin-bottom: 40px;
@@ -4771,6 +4771,7 @@ s
         margin-bottom: 36px;
         font-size: 4em;
         line-height: 0.95;
+        max-width: 850px;
     }
 }
 
