@@ -4756,7 +4756,7 @@ s
 
 @media (min-width: 992px) {
     .main-screen__title {
-        max-width: 950px;
+        max-width: 850px;
         font-size: 50px;
         margin-top: 170px;
         margin-bottom: 40px;
@@ -7962,7 +7962,7 @@ s
 
 @media (min-width: 1200px) {
     .mrgt {
-        margin-top: 2em !important;
+        margin-top: 4em !important;
     }
 }
 
