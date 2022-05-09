@@ -299,7 +299,7 @@ a:focus {
     margin-top: 10em !important;
 }
 
-
+s
 /* 1.2  Typography */
 
 .font__family {
@@ -5293,6 +5293,7 @@ a:focus {
 @media (min-width: 768px) {
     .our-services__title {
         margin: 0;
+        padding-bottom: 30px;
     }
 }
 
